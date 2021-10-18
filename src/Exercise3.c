@@ -14,9 +14,20 @@ Ex:
 
 void Ex3(int in_arr[], int n){
 	//Your codes here
-	
+	int i,count=0;
+ 		for( i=0;i<n;i++)
+ 	{
+ 		while(in_arr[i]<in_arr[i+1])
+ 	{
+ 		if(in_arr[i]<in_arr[i+1]) 
+		 	printf("%d %d ",in_arr[i],in_arr[i+1]);
+ 		else 
+			printf("%d",in_arr[i+1]);
+ 			count++; 
+			i++; 
+	}
+	}
 }
-
 int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	argc--;

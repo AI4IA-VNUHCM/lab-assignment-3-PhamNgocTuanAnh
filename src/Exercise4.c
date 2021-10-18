@@ -14,7 +14,21 @@ ______________________________________
 
 int Ex4(int arr[], int n){
 	//Your codes here
-	
+	int a = 1, d = 1, i = 0;
+
+  	while ((a == 1 || d == 1) && i < n - 1) {
+    if (arr[i] < arr[i+1])
+      	d = 0;
+    else if (arr[i] > arr[i+1])
+      	a = 0;
+    	i++;
+}
+  	if (a == 1)
+    	printf("1");
+  	else if (d == 1)
+    	printf("-1");
+  	else
+    	printf("0");
 }
 
 int main(int argc, char *argv[]) {

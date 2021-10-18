@@ -15,8 +15,8 @@ Ex:
 void Ex2(int arr[], int n){
 	//Your codes here
 	
-}
 
+}
 int main(int argc, char *argv[]) {
 	//testing variable, applying it to your algorithm for auto-evaluating
 	argc--;
